@@ -15,6 +15,6 @@ class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         # recursion
         res = []
-        cand_generate(res, cand, on, cn, n)
+        cand_generate(res,'',0, 0, n)
         return res
     
