@@ -4,8 +4,8 @@ def reverse(nums, i, j):
         i += 1
         j -= 1
 
-def Solution:
-    def nextPermutation(nums: List[int]):
+class Solution:
+    def nextPermutation(self, nums: List[int]):
         # Length of the array
         n = len(nums)
         # Index of the first element that is smaller than
