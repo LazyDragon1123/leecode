@@ -8,7 +8,6 @@ class Solution:
         maxsubs = np.ones(len(nums))
         lastid = len(nums) - 1
         for ind in range(len(nums) - 1):
-            print(maxsubs)
             subject = nums[lastid - ind - 1]
             tmp = [1]
             for j in range(ind + 1):
